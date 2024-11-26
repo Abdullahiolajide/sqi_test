@@ -1,0 +1,27 @@
+1. Structured Query Language
+
+2.  -Integer: this data type is in form of a number e.g 1,2,3,4...
+    -varchar: this data type is in form of a string and should have a specified amount of characters 
+    -text: this data type is also in form of a string but does not need a specified amount of characters
+    -datatime: this data type is in form of time and can take in attribute like TIMESPAMP 
+
+3.  SUM- this takes in a colum value and adds everthing in the column
+    AVERAGE- this takes in a colum value and gives the average value of everthing in the column
+    COUNT -this takes in a colum value and counts everthing under the column
+    ROUND- this takes in a colum values that are integers(decimals) and gives back the integer in a specified decimal places e.g ROUND(AVG(salary), 4) 
+
+
+4.  -SELECT
+    e.g -SELECT * FROM users_table
+        -SELECT first_name, last_name FROM users_table WHERE last_name='Olajide'
+    -UPDATE
+    e.g - UPDATE users_table SET profile_picture = 'thispicture.png' WHERE email = 'ige@gmail.com'
+    e.g - UPDATE users_table SET last_name = 'Olajide' WHERE first_name = 'abdullahi'
+
+    -INSERT
+    e.g - INSERT INTO users_table (first_name) VALUES ('Abdullahi')
+    e.g - INSERT INTO sellers_table (product, user_id) VALUES ('infinix', 5)
+    -DELETE
+
+    e.g - DELETE * FROM users_table WHERE user_id = 2
+    e.g - DELETE first_name FROM users_table WHERE user_id = 20

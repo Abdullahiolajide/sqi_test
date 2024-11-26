@@ -1,0 +1,8 @@
+1. UPDATE employees SET ethnicity = 'African' WHERE ethnicity = 'Black'
+2. DELETE * FROM employees WHERE employee_id IN('E02002','E02005', 'E02006', 'E02007')
+3. SELECT * FROM employees WHERE gender = 'Female' AND ethnicity = 'Asian'
+4. UPDATE employees SET job_title = 'Sr. Manager' WHERE employee_id = 'E02008'
+5. DELETE * FROM employees WHERE age > 60
+6. SELECT UPPER(full_name) FROM employees WHERE department IN ('IT', 'Marketing', 'Engineering') ORDER BY full_name ASC
+7. SELECT full_name, annual_salary FROM employees WHERE annual_salary > 70000 AND full_name NOT IN('Kai Le', 'Ezra vu', 'Jade Hu')
+8.SELECT 'Hello, My name is '|| full_name ||', I am the Director in the ' || department||' my Business_Unit is ' || business_unit|| ' and I am '||age ||' years old' FROM employees ORDER BY full_name ASC
